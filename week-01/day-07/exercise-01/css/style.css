@@ -17,6 +17,9 @@
     color: #333;
   }
 
+  ::-moz-selection{ background:#ff0099 ; color: #000; text-shadow: none; }
+  ::selection{ background: #ff0099; color: #000; text-shadow: none; }
+
  article, aside, footer, header, main, nav, section {
   display: block;
  }
